@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+}
+
+
+
+.appcontainer {
+  position: relative;
+  text-align: center;
+  padding-left: 0rem;
+}
+
+.img-text1{
+  position: absolute;
+  left: 7%;
+    top: 48%;
+    color: RGB(19 137 187);
+}
+.img-text2{
+  position: absolute;
+  left: 7%;
+    top: 59%;
+    color: RGB(19 137 187);
+}
+
+.img-title{
+  position: absolute;
+  left: 7%;
+    top: 20%;
+    font-size: 28px;
+    color: RGB(19 137 187);
+}
+
+.header{
+  border: 1px solid lightcyan;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.search{
+    width: 450px;
+    border-radius: 10px;
+    height: 35px;
+    background-color: #f1f1f1;
+}
+
+
+.logo{
+  padding-left: 71px;
+  height: 51px;
+}
+
+.category{
+  font-size: small;
+    text-align: center;
+}
+
+.nav{
+  display: contents;
+
+}
+
+.nav-link{
+  color: gray;
+  font-size: small;
+}
+
+.main-nav{
+  padding-left: 295px;
+  font-size: small;
+}
+
+.side-nav{
+  padding-right: 200px;
+  
+}
+
+.banner-img{
+  height: 182px;
+    width: 114%;
+}
+
+div{
+  display: inline-block;
+}
+
+.pl-30{
+  padding-left: 30px;
+}
+.pr-30{
+  padding-right: 30px;
+}
+.p-15{
+  padding: 15px;
+}
+
+.categorycard{
+  box-shadow: 0 0 5px 2px white;
+  width: 18rem;
+
+}
+
+.cardcontainer{
+ display:block
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
